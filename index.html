@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туристичний сайт</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/scss/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.poehalisnami.ua/ua/tour">TravelX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Про нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinations">Напрямки</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero text-center text-white d-flex align-items-center justify-content-center">
+        <h1>Відкрий світ разом з нами!</h1>
+    </header>
+
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>🌍 Про нас ✈️</h2>
+                <h5>Пропонуємо найкращі туристичні напрямки за доступними цінами!</h5>
+                <p>Ми – команда пристрасних мандрівників, яка перетворює ваші мрії про ідеальну подорож у реальність! Пропонуємо унікальні маршрути, захопливі пригоди та безтурботний відпочинок у найкрасивіших куточках світу. Від комфортного планування до незабутніх вражень – ми подбаємо про все, щоб ваша подорож була бездоганною! 🚀</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://tourlib.net/statti_ukr/images/sokol8.jpg" class="img-fluid" alt="Туризм">
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="container my-5">
+        <h2 class="text-center">Популярні напрямки</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://houseville.villas/magazine/wp-content/uploads/2019/02/imgonline-com-ua-Resize-KkttStDvK7.jpg" class="card-img-top" alt="Пляж">
+                    <div class="card-body">
+                        <h5 class="card-title">Мальдіви</h5>
+                        <p class="card-text">Неймовірні пляжі та лагуни.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ecooboi.com.ua/files/images/products/ecooboi-gory-karpaty-10098-1547367477.jpg" class="card-img-top" alt="Гори">
+                    <div class="card-body">
+                        <h5 class="card-title">Карпати</h5>
+                        <p class="card-text">Гори, природа та чисте повітря.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://7d9e88a8-f178-4098-bea5-48d960920605.selcdn.net/093490b6-a487-4681-9766-f7e8f73143a7/" class="card-img-top" alt="Місто">
+                    <div class="card-body">
+                        <h5 class="card-title">Лондон</h5>
+                        <p class="card-text">Романтичні прогулянки та культурні пам’ятки.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Шукайте місце своєї мрії на карті</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000000!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDMyJzQ1LjQiTiA3NMKwMDEnMjYuMyJX!5e0!3m2!1sen!2sus!4v1619825523215!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+    
+            <div class="col-md-6">
+                <h2>Контактна форма</h2>
+                <form action="#" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ім'я</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ваше ім'я">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Електронна пошта</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ваш email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Повідомлення</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 TravelX. Всі права захищені.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
